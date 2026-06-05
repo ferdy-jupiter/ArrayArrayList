@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class LatihanArraylist {
     public static void main(String[] args) {
-        // 1. Daftar belanja
+        // daftar belanja
         ArrayList<String> daftarBelanja = new ArrayList<>();
         daftarBelanja.add("sabun");
         daftarBelanja.add("Gula");
@@ -21,7 +21,7 @@ public class LatihanArraylist {
         }
         System.out.println("Jumlah item: " + daftarBelanja.size());
 
-        // 2. ArrayList angka
+        // angka
         ArrayList<Integer> angkaList = new ArrayList<>();
         angkaList.add(16);
         angkaList.add(10);
@@ -37,7 +37,7 @@ public class LatihanArraylist {
         }
         System.out.println("Nilai terbesar: " + max);
 
-        // 3. Nama dengan huruf A
+        //nama awalan a
         ArrayList<String> namaList = new ArrayList<>();
         namaList.add("Arsya");
         namaList.add("Melvin");
